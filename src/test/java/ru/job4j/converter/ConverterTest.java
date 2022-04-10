@@ -3,8 +3,6 @@ package ru.job4j.converter;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ConverterTest {
 
     @Test
@@ -17,9 +15,9 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert140RblThen3dot3333Dollar() {
-        float in = 0;
-        float expected = 0;
+    public void whenConvert140RblThen2dot3333Dollar() {
+        float in = 140;
+        float expected = 2.3333f;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
