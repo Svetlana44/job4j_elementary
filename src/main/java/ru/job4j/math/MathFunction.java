@@ -1,6 +1,5 @@
 package ru.job4j.math;
 
-@SuppressWarnings("checkstyle:EmptyLineSeparator")
 public class MathFunction {
     public static double sum(double first, double second) {
         return first + second;
