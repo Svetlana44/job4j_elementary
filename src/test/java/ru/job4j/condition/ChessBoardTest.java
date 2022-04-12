@@ -127,7 +127,3 @@ public class ChessBoardTest {
         Assert.assertEquals(expected, result);
     }
 }
-
-//    @Test
-//    public void isValid() {
-//    }
