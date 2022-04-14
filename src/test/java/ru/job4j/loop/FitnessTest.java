@@ -6,7 +6,6 @@ import org.junit.Assert;
 
 public class FitnessTest {
 
-
     @Test
     public void whenIvanGreatNik() {
         int ivan = 95;
