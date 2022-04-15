@@ -34,4 +34,11 @@ public class CheckPrimeNumberTest {
         Assert.assertFalse(result);
     }
 
+    @Test
+    public void when25() {
+        int number = 25;
+        boolean result = CheckPrimeNumber.check(number);
+        Assert.assertFalse(result);
+    }
+
 }
