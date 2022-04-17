@@ -13,7 +13,7 @@ public class SquareTest {
     }
 
     @Test
-    public void calculateWhenBound5Then0149and16() {
+    public void calculateWhenBound5Then014916() {
         int[] expected = new int[]{0, 1, 4, 9, 16};
         int[] actual = Square.calculate(5);
         Assert.assertArrayEquals(expected, actual);
