@@ -9,7 +9,7 @@ public class Sequence {
         array[0][1] = 4;
         array[1][1] = 5;
         array[2][1] = 6;
-        array[0][1] = 7;
+        array[0][2] = 7;
         array[1][2] = 8;
         array[2][2] = 9;
     }
