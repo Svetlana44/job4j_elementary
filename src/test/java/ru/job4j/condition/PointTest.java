@@ -25,7 +25,7 @@ public class PointTest {
     }
 
     @Test
-    public void distanceWhenX1minus2Y1minus3X2minus4Y2minus5Then2Dot82() {
+    public void distanceWhenX1minus2Y1minus3X2minus4Y2minus5Then8Dot48() {
         Point a = new Point(-2, -3, -1);
         Point b = new Point(-4, -5, 7);
         double actual = a.distance3D(b);
